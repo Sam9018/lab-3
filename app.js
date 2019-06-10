@@ -134,7 +134,7 @@ while (guesses < 4) {
 var states = prompt(' What states have i lived in? You have 6 guesses.');
 console.log(states);
 
-var standardStates = states.toUpperCase();
+var standardStates = state.toUpperCase();
 
 var stateArray = ['TEXAS', 'VIRGINIA', 'WASHINGTON'];
 
